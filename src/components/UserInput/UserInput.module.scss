@@ -1,0 +1,10 @@
+.userSearchForm {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.userSearch::placeholder {
+  padding-left: 5px;
+}

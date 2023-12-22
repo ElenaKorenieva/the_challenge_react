@@ -1,0 +1,63 @@
+.userContainer {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.userWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.imgContainer {
+  width: 350px;
+}
+
+.userImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.userInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.userField {
+  font-weight: 700;
+}
+
+.userRepoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+}
+.userRepoTitle {
+  font-size: 24px;
+}
+
+.userRepoCardList {
+  margin: 0;
+  padding: 0;
+}
+
+.userRepoCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.userRepoLinkTitle {
+  color: blue;
+}
+
+.userRepoLinkDesc {
+  color: black !important;
+}
